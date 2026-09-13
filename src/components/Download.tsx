@@ -2,7 +2,7 @@ import { Download as DownloadIcon } from 'lucide-react'
 import { LevelBar } from './LevelBar'
 import { useLanguage } from '../i18n/LanguageContext'
 
-const APK_URL = 'https://github.com/Jercahdz/workout-tracker-landing-app/releases/latest'
+const APK_URL = 'https://github.com/Jercahdz/workout-tracker-landing-app/releases/download/v1.0.0/application-841b7a30-899a-417c-8677-edbf3bdc5003.apk'
 
 export function DownloadSection() {
   const { content } = useLanguage()
